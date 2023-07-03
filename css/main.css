@@ -64,6 +64,63 @@ h4 {
 
 /* Navigation Styling */
 nav {
+    display: flex;
+    background-color: green;
+    justify-content: space-evenly;
     width: 100%;
     overflow: hidden;
-} 
+ } 
+
+nav a {
+    color: white;
+    font-size: 2em;
+    border-style: none;
+}
+
+/* Grid for dog coats */
+
+.two {
+    display: grid;
+    grid-template-areas:
+    "one two three"
+    "ones twos threes"
+    "four five six"
+    "fours fives sixs";
+}
+
+.img1 {
+    grid-area: one;
+}
+.des1 {
+    grid-area: ones;
+}
+.img2 {
+    grid-area: two;
+}
+.des2 {
+    grid-area: twos;
+}
+.img3 {
+    grid-area: three;
+}
+.des3 {
+    grid-area: threes;
+}
+.img4 {
+    grid-area: four;
+}
+.des4 {
+    grid-area: fours;
+}
+.img5 {
+    grid-area: five;
+}
+.des5 {
+    grid-area: fives;
+}
+.img6 {
+    grid-area: six;
+}
+.des6 {
+    grid-area: sixs;
+}

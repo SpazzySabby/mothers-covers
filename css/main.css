@@ -129,3 +129,48 @@ nav a {
 .des6 {
     grid-area: sixs;
 }
+
+.three {
+    display: grid;
+    grid-template-areas:
+    "seven eight nine"
+    "sevens eights nines"
+    "ten eleven twelve"
+    "tens elevens twelves";
+}
+.img7 {
+    grid-area: seven;
+}
+.des7 {
+    grid-area: sevens;
+}
+.img8 {
+    grid-area: eight;
+}
+.des8 {
+    grid-area: eights;
+}
+.img9 {
+    grid-area: nine;
+}
+.des9 {
+    grid-area: nines;
+}
+.img10 {
+    grid-area: ten;
+}
+.des10 {
+    grid-area: tens;
+}
+.img11 {
+    grid-area: eleven;
+}
+.des11 {
+    grid-area: elevens;
+}
+.img12 {
+    grid-area: twelve;
+}
+.des12 {
+    grid-area: twelves;
+}

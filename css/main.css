@@ -6,6 +6,11 @@
     padding: 10px;
 }
 
+/* Main Body Styling */
+.body {
+    font-family: 'Sarabun', sans-serif;
+}
+
 /* Navigation Styling */
 nav {
     background-color: green;
@@ -117,12 +122,4 @@ nav a {
 }
 .des12 {
     grid-area: twelves;
-}
-
-
-
-
-/* Media queries */
-@media only screen and (max-width: 600px) {
-    
 }

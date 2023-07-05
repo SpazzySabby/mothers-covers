@@ -28,6 +28,7 @@ nav a {
 
 .two {
     display: grid;
+    grid-gap: 10px;
     grid-template-areas:
     "one two three"
     "ones twos threes"
@@ -74,6 +75,7 @@ nav a {
 
 .three {
     display: grid;
+    grid-gap: 10px;
     grid-template-areas:
     "seven eight nine"
     "sevens eights nines"
@@ -115,4 +117,12 @@ nav a {
 }
 .des12 {
     grid-area: twelves;
+}
+
+
+
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+    
 }

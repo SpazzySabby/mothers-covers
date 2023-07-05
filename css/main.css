@@ -35,7 +35,10 @@ nav a {
 }
 
 /* About Us styling */
-
+.owner img {
+    width: 50%;
+    height: 50%;
+}
 
 
 /* Grid for dog coats */

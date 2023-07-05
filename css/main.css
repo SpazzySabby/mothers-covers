@@ -1,26 +1,29 @@
 /* Wrapper */
 .wrapper {
-    max-width: 1500px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Body Styling 
+/* Body Styling */
 .body {
-    margin: none;
-    padding: none;
-} */
+    background-color: #E3D5De;
+} 
+
+h4 {
+    text-align: center;
+}
 
 /* Navigation Styling */
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #21EBAA;
+    background-color: #1825db;
     overflow: hidden;
  } 
 
 nav a {
-    color: white;
+    color: #E3D5De;
     font-size: 2em;
     text-decoration: none;
 }

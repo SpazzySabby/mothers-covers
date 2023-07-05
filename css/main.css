@@ -8,8 +8,9 @@
 
 /* Navigation Styling */
 nav {
+    display: flex;
+    justify-content: space-around;
     background-color: green;
-    justify-content: space-evenly;
     overflow: hidden;
  } 
 

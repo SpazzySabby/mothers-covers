@@ -3,14 +3,19 @@
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
 }
+
+/* Body Styling 
+.body {
+    margin: none;
+    padding: none;
+} */
 
 /* Navigation Styling */
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: green;
+    background-color: #21EBAA;
     overflow: hidden;
  } 
 

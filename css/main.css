@@ -3,11 +3,13 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #E3D5De;
+    padding: 10px;
 }
 
 /* Body Styling */
 body {
-    background-color: #E3D5De;
+    background-color: #21ebaa;
 } 
 
 header {
@@ -20,7 +22,7 @@ header {
 }
 
 header img {
-    justify-content: left;
+    float: right;
 }
 
 h4 {

@@ -74,15 +74,16 @@ nav a:hover {
 .reviews h2 {
     animation-name: lie;
     animation-duration: 2s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 @keyframes lie {
-    25% {
+      25% {
         rotate: 25deg;
         color: #21ebaa;
       }
       50% {
-        rotate: 50deg;
+        rotate: 35deg;
         color: #bae2f4;
       }
       75% {
@@ -90,7 +91,7 @@ nav a:hover {
         color: #1825db;
       }
       100% {
-        rotate: -50deg;
+        rotate: -35deg;
         color: #ac74d6;
       }
     }

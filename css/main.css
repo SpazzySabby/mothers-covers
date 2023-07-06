@@ -19,6 +19,10 @@ header {
     background-position: center;
 }
 
+header img {
+    justify-content: left;
+}
+
 h4 {
     text-align: center;
 }

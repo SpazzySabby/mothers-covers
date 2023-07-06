@@ -10,6 +10,7 @@
 /* Body Styling */
 body {
     background-color: #21ebaa;
+    line-height: 1.5;
 } 
 
 header {
@@ -51,9 +52,11 @@ nav a:hover {
 }
 
 /* About Us styling */
+
 .owner img {
     height: auto;
     width: 400px;
+    padding-bottom: 25px;
 }
 
 .one {
@@ -61,9 +64,9 @@ nav a:hover {
     grid-gap: 10px;
     grid-template-areas: 
     "us us "
-    "own abo"
+    "abo abo"
     "own rev"
-    ". rev"
+    "own rev"
     "try con";
 }
 

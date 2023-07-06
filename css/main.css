@@ -58,7 +58,13 @@ nav a:hover {
     width: 400px;
     padding-bottom: 25px;
 }
-
+.owner1 {
+    width: 400px;
+}
+.try {
+    width: 400px;
+    text-align: center;
+}
 .one {
     display: grid;
     grid-gap: 10px;

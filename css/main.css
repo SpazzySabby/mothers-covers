@@ -52,7 +52,9 @@ nav a:hover {
 }
 
 /* About Us styling */
-
+h1 {
+    text-align: center;
+}
 .owner img {
     height: auto;
     width: 400px;
@@ -95,7 +97,7 @@ nav a:hover {
         color: #ac74d6;
       }
     }
-}
+
 
 /* Try Us Animation and keyframes */ 
 .try h1 {
@@ -121,17 +123,13 @@ nav a:hover {
 .one {
     display: grid;
     grid-gap: 10px;
-    grid-template-areas: 
-    "us us "
+    grid-template-areas:
     "abo abo"
     "own rev"
     "own rev"
     "try con";
 }
 
-.us {
-    grid-area: us;
-}
 .about1 {
     grid-area: abo;
 }

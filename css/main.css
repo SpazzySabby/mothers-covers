@@ -65,7 +65,38 @@ nav a:hover {
     width: 400px;
     text-align: center;
 }
+.reviews h2{
+    text-align: center;
+    padding: 75px;
+}
 
+/* Reviews animation */
+.reviews h2 {
+    animation-name: lie;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes lie {
+    25% {
+        rotate: 25deg;
+        color: #21ebaa;
+      }
+      50% {
+        rotate: 50deg;
+        color: #bae2f4;
+      }
+      75% {
+        rotate: -25deg;
+        color: #1825db;
+      }
+      100% {
+        rotate: -50deg;
+        color: #ac74d6;
+      }
+    }
+}
+
+/* Try Us Animation and keyframes */ 
 .try h1 {
     background-color: #ac74d6;
     border-radius: 35px;
@@ -85,6 +116,7 @@ nav a:hover {
     }
 }
 
+/* Section one grid */
 .one {
     display: grid;
     grid-gap: 10px;

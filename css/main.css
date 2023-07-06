@@ -6,13 +6,11 @@
 }
 
 /* Body Styling */
-.body {
+body {
     background-color: #E3D5De;
 } 
 
-
-
-.header {
+header {
     padding: 300px;
     background-color: rgb(0, 195, 221);
     background-image: url(../images/dogo.png);

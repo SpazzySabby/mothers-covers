@@ -43,6 +43,13 @@ nav a {
     text-decoration: none;
 }
 
+/* Nav Hover Styling */
+
+nav a:hover {
+    background-color: #bae2f4;
+    color: #ac74d6;
+}
+
 /* About Us styling */
 .owner img {
     width: 50%;

@@ -10,10 +10,15 @@
     background-color: #E3D5De;
 } 
 
-.header {
-    background-image: url(images/dogo.jpg);
-    width: 100%;
 
+
+.header {
+    padding: 300px;
+    background-color: rgb(0, 195, 221);
+    background-image: url(../images/dogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h4 {

@@ -52,10 +52,39 @@ nav a:hover {
 
 /* About Us styling */
 .owner img {
-    width: 50%;
-    height: 50%;
+    height: auto;
+    width: 400px;
 }
 
+.one {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "us us "
+    "own abo"
+    "own rev"
+    ". rev"
+    "try con";
+}
+
+.us {
+    grid-area: us;
+}
+.about1 {
+    grid-area: abo;
+}
+.reviews {
+    grid-area: rev;
+}
+.contact {
+    grid-area: con;
+}
+.owner {
+    grid-area: own;
+}
+.try {
+    grid-area: try;
+}
 
 /* Grid for dog coats */
 

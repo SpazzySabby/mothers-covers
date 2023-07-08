@@ -14,17 +14,17 @@
 <body>
     <div class="wrapper">
         <header>
-            <img src="images/MC-Logo.png" class="animate__heartBeat" alt="Logo for Mothers Covers">
+            <img src="images/MC-Logo.png" aria-label="MC Logo" class="animate__heartBeat" alt="Logo for Mothers Covers">
         </header>
         <!--will use css flex to style the nav bar-->
-        <nav>
+        <nav role="navigation">
             <a class="active" href="index.html">About Us</a>
             <a class="active" href="dogs.html">Dog Raincoats</a>
             <a class="active" href="horses.html">Horse Stable Blankets</a>
         </nav>
         <!-- I chose sections to house all my divs so I would know what goes where.
         I am using grid to style the page because I love the versitility.-->
-        <h1>About Us</h1>
+        <h1 role="heading">About Us</h1>
         <section class="one">
             <div class="about1">
                 We love animals, and we want to kelp keep yours warm and dry through all that mother nature throws your way.
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="owner" itemscope itemtype="https://schema.org/Person">
-                <img src="images/Jennifer.jpg" alt="picture of owner Jennifer Brown">
+                <img src="images/Jennifer.jpg" aria-label="image of owner" alt="picture of owner Jennifer Brown">
                 <div class="owner1" itemprop="name">
                 <br>
                     Owner: Jennifer Brown
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="try">
-                <h2>Don't just believe the words written here! Try us! 60-day money-back guarantee!*</h1>
+                <h2>Don't just believe the words written here! Try us! 60-day money-back guarantee!*</h2>
             </div>
         </section>
         <table class="contact">
@@ -77,7 +77,7 @@
                 <td itemprop="email">motherscovers@gmail.com</td>
             </tr>
         </table>
-        <footer>
+        <footer role="contentinfo">
             &copy; Mother's Covers
         </footer>
         

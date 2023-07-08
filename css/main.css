@@ -55,13 +55,19 @@ nav a:hover {
 h1 {
     text-align: center;
 }
+.about1 {
+    font-size: larger;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .owner img {
     height: auto;
     width: 400px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 .owner1 {
     width: 400px;
+    font-size: large;
 }
 .try {
     width: 400px;
@@ -69,7 +75,8 @@ h1 {
 }
 .reviews h2{
     text-align: center;
-    padding: 75px;
+    font-size: 2em;
+    padding-bottom: 75px;
 }
 
 /* Reviews animation */
@@ -100,7 +107,7 @@ h1 {
 
 
 /* Try Us Animation and keyframes */ 
-.try h1 {
+.try h2 {
     background-color: #ac74d6;
     border-radius: 35px;
     animation-name: try;
@@ -125,9 +132,9 @@ h1 {
     grid-gap: 10px;
     grid-template-areas:
     "abo abo"
+    "own rev" 
     "own rev"
-    "own rev"
-    "try con";
+    "try rev";
 }
 
 .about1 {
@@ -136,9 +143,9 @@ h1 {
 .reviews {
     grid-area: rev;
 }
-.contact {
+/* .contact {
     grid-area: con;
-}
+} */
 .owner {
     grid-area: own;
 }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
        <title>Mother's Cover's</title>
 </head>
 
@@ -32,49 +32,51 @@
                 Speaking of stylish, go to our custom orders section so you can special order outfits that match so you and
                 your pet can step out in style!
             </div>
-            <div class="reviews">
+            <div class="reviews" itemscope itemtype="https://schema.org/Review">
                 <h2>Reviews Don't Lie!</h2>
-                <div class="review1">
+                <div class="review1" itemprop="reviewBody">
                     <h4>5 out of 5 stars</h4>
                     From the quality stitching to the vibrant colors, these horse blankets are the bee's knees!
                 </div>
-                <div class="review2">
+                <div class="review2" itemprop="reviewBody">
                     <h4>Will Buy Again</h4>
                     I have 3 of these horse blankets and will definately be buying more. They are sturdy and long lasting, my
                     oldest one is 5 years old and it is barely fraying from weekly use.
                 </div>
-                <div class="review3">
+                <div class="review3" itemprop="reviewBody">
                     <h4>Quality!</h4>
                     My dog is ruff and tumble, always getting into new adventures no matter the terrain (we hang out in the
                     forest a lot). These coats have lasted some extreme weather and extreme play. I cannot say enough great
                     things about these coats!
                 </div>
             </div>
-            <table class="contact">
-                <caption>
-                    <h3>Contact Us</h3>
-                </caption>
-                <tr>
-                    <th>Phone ~</th>
-                    <td>1-777-555-1234</td>
-                </tr>
-                <tr>
-                    <th>Email ~</th>
-                    <td>motherscovers@gmail.com</td>
-                </tr>
-            </table>
-            <div class="owner">
+            <div class="owner" itemscope itemtype="https://schema.org/Person">
                 <img src="images/Jennifer.jpg" alt="picture of owner Jennifer Brown">
-                <div class="owner1">
+                <div class="owner1" itemprop="name">
+                <br>
                     Owner: Jennifer Brown
-                    Started Mother's Covers in 2020 on a whim, Jennifer plans on becoming the dominant leader in animal fashions
+                <br>
+                    Jennifer started Mother's Covers in 2020 on a whim, Jennifer plans on becoming the dominant leader in animal fashions
                     in the next 5 years. You could be a part of the herstory!
                 </div>
             </div>
             <div class="try">
-                <h1>Don't just believe the words written here! Try us! 60-day money-back guarantee!*</h1>
+                <h2>Don't just believe the words written here! Try us! 60-day money-back guarantee!*</h1>
             </div>
         </section>
+        <table class="contact">
+            <caption>
+                <h3>Contact Us</h3>
+            </caption>
+            <tr itemscope itemtype="https://schema.org/Organization">
+                <th>Phone ~</th>
+                <td itemprop="telephone">1-777-555-1234</td>
+            </tr>
+            <tr itemscope itemtype="https://schema.org/Organization">
+                <th>Email ~</th>
+                <td itemprop="email">motherscovers@gmail.com</td>
+            </tr>
+        </table>
         <footer>
             &copy; Mother's Covers
         </footer>

@@ -83,6 +83,10 @@ h1 {
     padding-bottom: 75px;
     padding-top: 25px;
 }
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Reviews animation */
 .reviews h2 {
@@ -135,6 +139,8 @@ h1 {
 .one {
     display: grid;
     grid-gap: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
     grid-template-areas:
     "abo abo"
     "own rev" 
@@ -148,9 +154,6 @@ h1 {
 .reviews {
     grid-area: rev;
 }
-/* .contact {
-    grid-area: con;
-} */
 .owner {
     grid-area: own;
 }
@@ -266,6 +269,10 @@ h1 {
         flex-wrap: wrap;
     }
     .two {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .one {
         display: flex;
         flex-wrap: wrap;
     }

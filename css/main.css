@@ -26,6 +26,8 @@ header {
 
 header img {
     float: right;
+    height: 200px;
+    width: 200px;
 }
 
 h4 {
@@ -208,6 +210,7 @@ h1 {
     grid-area: sixs;
 }
 
+/* Grid for horse blankets */
 .three {
     display: grid;
     grid-gap: 10px;
@@ -262,6 +265,10 @@ h1 {
         display: flex;
         flex-wrap: wrap;
     }
+    .two {
+        display: flex;
+        flex-wrap: wrap;
+    }
     nav {
         flex-wrap: wrap;
         text-align: center;
@@ -271,15 +278,22 @@ h1 {
     }
     header img {
         width: 100px;
+        height: 100px;
     }
     header {
         height: 50vh;
+    }
+    h1 {
+        font-size: x-large;
     }
 }
 
 @media screen and (max-width: 992px) {
     header {
         height: 50vh;
+    }
+    nav a {
+        font-size: large;
     }
     
 }

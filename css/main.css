@@ -8,13 +8,12 @@
 }
 
 /* Body Styling */
+
 body {
     background-color: #21ebaa;
     line-height: 1.5;
 } 
-
 header {
-    /*padding: 300px;*/
     background-color: rgb(0, 195, 221);
     background-image: url(../images/dogo1500.png);
     height: 800px;
@@ -23,25 +22,30 @@ header {
     background-size: cover;
     background-position: center;
 }
-
 header img {
     float: right;
     height: 200px;
     width: 200px;
 }
-
 h4 {
     text-align: center;
 }
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1825db;
+}
+
 
 /* Navigation Styling */
+
 nav {
     display: flex;
     justify-content: space-around;
     background-color: #1825db;
     overflow: hidden;
- } 
-
+ }
 nav a {
     color: #E3D5De;
     font-size: 2em;
@@ -56,6 +60,7 @@ nav a:hover {
 }
 
 /* About Us styling */
+
 h1 {
     text-align: center;
 }
@@ -86,9 +91,11 @@ h1 {
 .contact {
     margin-left: auto;
     margin-right: auto;
+    font-size: larger;
 }
 
 /* Reviews animation */
+
 .reviews h2 {
     animation-name: lie;
     animation-duration: 2s;
@@ -116,6 +123,7 @@ h1 {
 
 
 /* Try Us Animation and keyframes */ 
+
 .try h2 {
     background-color: #ac74d6;
     border-radius: 35px;
@@ -135,7 +143,7 @@ h1 {
     }
 }
 
-/* Section one grid */
+/* Section one grid styling About Us */
 .one {
     display: grid;
     grid-gap: 10px;
@@ -161,7 +169,7 @@ h1 {
     grid-area: try;
 }
 
-/* Grid for dog coats */
+/* Section 2 grid styling for dog coats */
 
 .two {
     display: grid;
@@ -213,7 +221,8 @@ h1 {
     grid-area: sixs;
 }
 
-/* Grid for horse blankets */
+/* Section 3 grid styling for horse blankets */
+
 .three {
     display: grid;
     grid-gap: 10px;
@@ -263,6 +272,24 @@ h1 {
     grid-area: twelves;
 }
 
+/* Media Screen styling for a responsive website */
+
+@media screen and (max-width: 992px) {
+    header {
+        height: 50vh;
+    }
+    nav a {
+        font-size: large;
+    }
+    header img {
+        width: 150px;
+        height: 150px;
+    }
+    .owner img {
+        width: 50vw;
+    }
+    
+}
 @media screen and (max-width: 600px) {
     .three {
         display: flex;
@@ -293,14 +320,4 @@ h1 {
     h1 {
         font-size: x-large;
     }
-}
-
-@media screen and (max-width: 992px) {
-    header {
-        height: 50vh;
-    }
-    nav a {
-        font-size: large;
-    }
-    
 }

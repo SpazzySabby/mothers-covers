@@ -14,9 +14,11 @@ body {
 } 
 
 header {
-    padding: 300px;
+    /*padding: 300px;*/
     background-color: rgb(0, 195, 221);
-    background-image: url(../images/dogo.png);
+    background-image: url(../images/dogo1500.png);
+    height: 1000px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,6 +162,7 @@ h1 {
     display: grid;
     grid-gap: 10px;
     overflow: auto;
+    place-items: center;
     grid-template-columns: 33% 33% 33%;
     grid-template-areas:
     "one two three"
@@ -209,6 +212,7 @@ h1 {
     display: grid;
     grid-gap: 10px;
     overflow: auto;
+    place-items: center;
     grid-template-columns: 33% 33% 33%;
     grid-template-areas:
     "seven eight nine"
@@ -264,5 +268,15 @@ h1 {
     .three {
         display: flex;
         flex-wrap: wrap;
+    }
+    nav {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    img {
+        width: 100vw;
+    }
+    header img {
+        width: 100px;
     }
 }

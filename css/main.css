@@ -24,11 +24,17 @@ header {
 }
 header img {
     float: right;
+    padding-right: 50px;
+    padding-top: 50px;
     height: 200px;
     width: 200px;
 }
 h4 {
     text-align: center;
+}
+.top {
+    color: #1825db;
+    float: right;
 }
 footer {
     text-align: center;
@@ -91,7 +97,8 @@ h1 {
 .contact {
     margin-left: auto;
     margin-right: auto;
-    font-size: larger;
+    font-size: x-large;
+    padding-bottom: 50px;
 }
 
 /* Reviews animation */
@@ -272,7 +279,8 @@ h1 {
     grid-area: twelves;
 }
 
-/* Media Screen styling for a responsive website */
+/* Media Screen styling for a responsive website, I was honestly having
+issues with responsive imaging breaking my grid */
 
 @media screen and (max-width: 992px) {
     header {
@@ -287,6 +295,9 @@ h1 {
     }
     .owner img {
         width: 50vw;
+    }
+    .contact {
+        font-size: large;
     }
     
 }
@@ -319,5 +330,8 @@ h1 {
     }
     h1 {
         font-size: x-large;
+    }
+    .contact {
+        font-size: small;
     }
 }

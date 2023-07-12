@@ -100,6 +100,9 @@ h1 {
     font-size: x-large;
     padding-bottom: 50px;
 }
+.review1, .review2, .review3 {
+    text-align: center;
+}
 
 /* Reviews animation */
 

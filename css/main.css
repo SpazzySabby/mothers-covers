@@ -299,6 +299,10 @@ issues with responsive imaging breaking my grid */
     .contact {
         font-size: large;
     }
+    .mini {
+        width: 100px;
+        height: 100px;
+    }
     
 }
 @media screen and (max-width: 600px) {

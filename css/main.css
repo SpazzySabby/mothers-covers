@@ -1,6 +1,6 @@
 /* Wrapper */
 .wrapper {
-    max-width: 1800px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
     background-color: #E3D5De;
@@ -111,19 +111,19 @@ h1 {
 }
 @keyframes lie {
       25% {
-        rotate: 25deg;
+        transform: rotate(25deg);
         color: #21ebaa;
-      }
+        }
       50% {
-        rotate: 35deg;
+        transform: rotate(35deg);
         color: #bae2f4;
       }
       75% {
-        rotate: -25deg;
+        transform: rotate(-25deg);
         color: #1825db;
       }
       100% {
-        rotate: -35deg;
+        transform: rotate(-35deg);
         color: #ac74d6;
       }
     }
